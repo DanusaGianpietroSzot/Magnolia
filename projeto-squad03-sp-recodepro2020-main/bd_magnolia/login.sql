@@ -2,7 +2,7 @@ drop database if exists quiz_login;
 
 create database magnolia_bd DEFAULT CHARACTER SET utf8 COLLATE utf8_general_ci;
 
-create table usuarias(
+create table usuaria(
     id int not null primary key AUTO_INCREMENT,
     nome varchar(80) not null,
     idade int not null,
