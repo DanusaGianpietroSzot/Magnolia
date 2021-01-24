@@ -32,5 +32,5 @@ insert into quiz_resultado (id, letra_escolhida, info_usuaria) VALUES
 (3, "D", 2),
 (4, "C", 1);
 
-SELECT q.letra_escolhida,u.nome, u.email, u.telefone, u.telefone_contato FROM quiz_resultado q
-JOIN usuaria u ON q.info_usuaria = u.id;
+--SELECT q.letra_escolhida,u.nome, u.email, u.telefone, u.telefone_contato FROM quiz_resultado q
+--JOIN usuaria u ON q.info_usuaria = u.id;
